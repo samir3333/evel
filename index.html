@@ -7,35 +7,65 @@
     <title>Document</title>
 
     <style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
         body{
             background: radial-gradient(circle,rgb(175, 157, 157),rgb(4, 4, 22));
         }
         .eve{
-            width: 600px;
+
+            
+            width: 900px;
+            /* max-width: 1000px; */
             height: 100px;
             background: yellowgreen;
             border-radius: 50%;
             box-shadow: 4px 4px 5px rgb(47, 0, 255);
+            position: relative;
+            margin: 40px;
             
         }
         h1{
             color: aliceblue;
             text-align: center;
+            padding: 20px;
             font-size: 70px;
             text-shadow: 3px 5px 6px red;
         }
 img{
-
     border-radius: 80%;
     box-shadow: 5px 6px 6px yellow;
     position: relative;
- left: 800px;
- top: -100px;
+    left: 800px;
+    top: 100px;
+    padding: 60px;
 }
 a{
+    position: absolute ;
+    bottom: -0px;
     color: aliceblue;
     font-size: 100px;
-}        
+}   
+@media screen and (max-width: 1095px){
+    .eve{
+        background: red;
+    }
+    .img{
+        width: 500px;
+        height: 200px;
+        display: block;
+    }
+    a{
+        position: absolute ;
+    bottom: -0px;
+    color: aliceblue;
+    font-size: 100px;  
+    }
+}     
         
     </style>
 </head>
@@ -50,7 +80,7 @@ a{
     <img src="image/Screenshot_20220611-144259_WhatsApp.jpg" alt="">
     
     <a href="jiren.html">has click aqui carajoooo</a>
-    
+
     
     
     
